@@ -3,7 +3,7 @@ import DefaultLayout from "@/layout/DefaultLayout";
 const Home = () => {
   return (
     <DefaultLayout>
-      <div>{/* Your page content */}</div>
+      <div></div>
     </DefaultLayout>
   );
 };

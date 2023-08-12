@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative top-0 left-0 w-full bg-black py-4 px-6 flex flex-col">
+    <nav className="relative top-0 left-0 w-full bg-black py-1 px-6 flex flex-col">
       {/* Company Logo */}
       <div className="flex items-center mb-4 pl-10 pt-2">
         {/* Company Logo */}
@@ -39,16 +39,16 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <div className="hidden lg:flex justify-center space-x-8 mt-4">
-        <a
+        <Link
           id="strike"
-          href="#"
+          href="/"
           className={`text-white hover:text-gray-300 ${
             selectedLink === "Home" ? "selected" : ""
           }`}
           onClick={() => handleLinkClick("Home")}
         >
           Home
-        </a>
+        </Link>
 
         {/*Pages*/}
         <div

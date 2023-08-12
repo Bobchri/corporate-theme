@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import ThemeSwitch from "@/components/ThemeSwitch";
 import CircularProgressBar from "@/components/CircularProgressBar";
+import Footer from "@/components/Footer";
 
 const DefaultLayout = ({ children }) => {
   return (
@@ -13,7 +14,10 @@ const DefaultLayout = ({ children }) => {
         <CircularProgressBar />
       </main>
 
-      <footer>{/* Footer will go here */}</footer>
+      <footer>
+        {/* Footer will go here */}
+        <Footer />
+      </footer>
     </div>
   );
 };
