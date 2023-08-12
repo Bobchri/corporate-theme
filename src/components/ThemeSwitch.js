@@ -27,7 +27,7 @@ const ThemeSwitch = () => {
   };
 
   return (
-    <div className="fixed z-10 bottom-5 right-10">
+    <div className="fixed z-50 bottom-5 right-10">
       <Switch
         onChange={toggleTheme}
         checked={theme === "dark"}

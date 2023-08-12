@@ -4,9 +4,28 @@ import DefaultLayout from "@/layout/DefaultLayout";
 
 const ContactUs = () => {
   return (
-    <DefaultLayout class="relative">
-      <div class="absolute z-20">
-        <h1>Contact Us Page</h1>
+    <DefaultLayout>
+      <div class=" p-5">
+        <h1>Contact Us</h1>
+        <h1>Contact Us</h1>
+        <h1>Contact Us</h1>
+        <h1>Contact Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
+        <h1>About Us</h1>
       </div>
     </DefaultLayout>
   );
