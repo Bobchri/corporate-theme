@@ -55,14 +55,7 @@ const Footer = () => {
                 Documentation
               </Link>
             </li>
-            <li className="py-1">
-              <Link
-                className="text-sm text-slate-400 hover:text-orange-500"
-                href="#"
-              >
-                Help Center
-              </Link>
-            </li>
+
             <li className="py-1">
               <Link
                 className="text-sm text-slate-400 hover:text-orange-500"
@@ -80,12 +73,6 @@ const Footer = () => {
               </Link>
             </li>
             <li className="py-1">
-              <Link
-                className="text-sm text-slate-400 hover:text-orange-500"
-                href="#"
-              >
-                FAQ
-              </Link>
               <li className="py-1">
                 <Link
                   className="text-sm text-slate-400 hover:text-orange-500"
@@ -141,22 +128,6 @@ const Footer = () => {
                 href="#"
               >
                 Our Blog
-              </Link>
-            </li>
-            <li className="py-1">
-              <Link
-                className="text-sm text-slate-400 hover:text-orange-500"
-                href="#"
-              >
-                Legal & Security
-              </Link>
-            </li>
-            <li className="py-1">
-              <Link
-                className="text-sm text-slate-400 hover:text-orange-500"
-                href="#"
-              >
-                Terms of Use
               </Link>
             </li>
           </ul>
