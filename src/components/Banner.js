@@ -5,18 +5,22 @@ const Banner = () => {
   return (
     <div className="container mx-auto px-20">
       {/*Banner Goes Here*/}
-      <div className="  text-black p-20">
+      <div className=" py-16 md:py-24 lg:py-32 xl:py-48 text-black">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-base font-semibold mb-2">Welcome to BDESIGN!</h1>
+          <h1 className="text-base md:text-xl lg:text-xl xl:text-base font-semibold mb-2">
+            Welcome to BDESIGN!
+          </h1>
           <h1 className="text-5xl font-semibold ">
             Join over{" "}
             <span className="text-6xl font-bold text-orange-500">50K+</span>
           </h1>
-          <h1 className="text-5xl font-semibold mb-4">
+          <h1 className="md:text-5xl lg:text-5xl xl:text-5xl font-semibold  text-5xl mb-4">
             Customers who Love It!
           </h1>
-          <p className="text-lg">Offering web solutions since June 04. 2011</p>
-          <Button bgColor="blue-500" textColor="white" text="View More" />
+          <p className="text-base md:text-lg lg:text-xl">
+            Offering web solutions since June 04. 2011
+          </p>
+          <Button bgColor="black" textColor="white" text="View More" />
         </div>
       </div>
     </div>
