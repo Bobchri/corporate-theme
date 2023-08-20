@@ -67,3 +67,10 @@ body {
 .circular-progress-container.visible {
   bottom: 60px; /* Move up to the desired position when visible */
 }
+
+.home-container {
+  background-image: url("/images/banner-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust as needed */
+}

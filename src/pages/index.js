@@ -5,9 +5,8 @@ import Banner from "@/components/Banner";
 const Home = () => {
   return (
     <DefaultLayout>
-      <div>
-        <Banner />
-      </div>
+      <Banner />
+      {/*All other components go here*/}
     </DefaultLayout>
   );
 };

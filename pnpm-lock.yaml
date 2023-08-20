@@ -4,6 +4,7 @@ specifiers:
   autoprefixer: 10.4.14
   eslint: 8.47.0
   eslint-config-next: 13.4.13
+  font-awesome: ^4.7.0
   next: 13.4.13
   postcss: 8.4.27
   react: 18.2.0
@@ -15,6 +16,7 @@ dependencies:
   autoprefixer: 10.4.14_postcss@8.4.27
   eslint: 8.47.0
   eslint-config-next: 13.4.13_eslint@8.47.0
+  font-awesome: 4.7.0
   next: 13.4.13_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.27
   react: 18.2.0
@@ -1114,6 +1116,11 @@ packages:
 
   /flatted/3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
+    dev: false
+
+  /font-awesome/4.7.0:
+    resolution: {integrity: sha512-U6kGnykA/6bFmg1M/oT9EkFeIYv7JlX3bozwQJWiiLz6L0w3F5vBVPxHlwyX/vtNq1ckcpRKOB9f2Qal/VtFpg==}
+    engines: {node: '>=0.10.3'}
     dev: false
 
   /for-each/0.3.3:
