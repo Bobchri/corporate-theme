@@ -3,7 +3,7 @@ import "font-awesome/css/font-awesome.min.css"; // Import Font Awesome CSS
 
 const Card = ({ icon, title, content }) => {
   return (
-    <div className="max-w-md mx-auto rounded-xl shadow-2xl overflow-hidden md:max-w-2xl">
+    <div className="max-w-md mx-auto rounded-xl shadow-xl overflow-hidden md:max-w-2xl">
       <div className="md:flex">
         <div className="md:flex-shrink-0">
           <div className="p-8">
