@@ -297,7 +297,7 @@ const Navbar = () => {
       <div className="lg:hidden flex items-center justify-end">
         <button
           onClick={toggleMobileMenu}
-          className="text-white hover:text-orange-500 focus:outline-none"
+          className="text-white hover:text-orange-500 focus:outline-none pb-2"
           aria-label="Open Mobile Menu"
         >
           <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
