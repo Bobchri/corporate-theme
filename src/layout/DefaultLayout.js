@@ -10,8 +10,8 @@ const DefaultLayout = ({ children }) => {
       {/* Main content */}
       <main>
         {children}
-        <ThemeSwitch />
         <CircularProgressBar />
+        <ThemeSwitch />
       </main>
 
       <footer>
