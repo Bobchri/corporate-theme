@@ -26,7 +26,7 @@ const Features = () => {
           <Image
             src={FeatureBanner}
             alt="Image Description"
-            className="w-64 h-64 md:w-96 md:h-96 rounded-full object-cover" // Adjust the size for mobile and larger screens
+            className="w-64 h-64 md:w-96 md:h-96" // Adjust the size for mobile and larger screens
           />
         </div>
       </div>
