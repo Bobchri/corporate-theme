@@ -20,7 +20,7 @@ const Features = () => {
             powerful theme which suits both users with no programming background
             as well as professional web designers.
           </p>
-          <Button bgColor="transparent" textColor="black" text="View More" />
+          <Button bgColor="white" textColor="black" text="View More" />
         </div>
         <div className="mt-4 md:mt-0 md:ml-4">
           <Image

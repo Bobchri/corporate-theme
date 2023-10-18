@@ -14,7 +14,7 @@ const Recruitment = () => {
         <div className="overflow-x-auto">
           <div className="flex space-x-16">
             <div className="text-center p-8">
-              <div className="w-28 h-28 shadow-lg rounded-full flex items-center justify-center">
+              <div className="w-28 h-28 shadow-lg  bg-white rounded-full flex items-center justify-center">
                 <span className="text-orange-500 text-2xl font-semibold">01</span>
               </div>
               <h5 className="text-xl font-semibold mt-4">Web Design</h5>
@@ -25,7 +25,7 @@ const Recruitment = () => {
             </div>
 
             <div className="text-center p-8">
-              <div className="w-28 h-28 shadow-lg rounded-full flex items-center justify-center">
+              <div className="w-28 h-28 shadow-lg  bg-white rounded-full flex items-center justify-center">
                 <span className="text-orange-500 text-2xl font-semibold">02</span>
               </div>
               <h5 className="text-xl font-semibold mt-4">Apps Development</h5>
@@ -36,7 +36,7 @@ const Recruitment = () => {
             </div>
 
             <div className="text-center p-8">
-              <div className="w-28 h-28 shadow-lg rounded-full flex items-center justify-center">
+              <div className="w-28 h-28 shadow-lg bg-white rounded-full flex items-center justify-center">
                 <span className="text-orange-500 text-2xl font-semibold">03</span>
               </div>
               <h5 className="text-xl font-semibold mt-4">Digital Marketing</h5>
@@ -47,7 +47,7 @@ const Recruitment = () => {
             </div>
 
             <div className="text-center p-8">
-              <div className="w-28 h-28 shadow-lg rounded-full flex items-center justify-center">
+              <div className="w-28 h-28 shadow-lg  bg-white rounded-full flex items-center justify-center">
                 <span className="text-orange-500 text-2xl font-semibold">04</span>
               </div>
               <h5 className="text-xl font-semibold mt-4">UI/UX Design</h5>
@@ -59,7 +59,7 @@ const Recruitment = () => {
           </div>
         </div>
 
-        <Button bgColor="transparent" textColor="black" text="Online Application" />
+        <Button bgColor="white" textColor="black" text="Online Application" />
       </div>
     </div>
   );
