@@ -3,7 +3,7 @@ import Card from "../Cards/Card";
 
 const CardStack = () => {
   return (
-    <div className="container px-auto overflow-hidden mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 p-20">
+    <div className="container px-auto overflow-hidden mx-auto -m-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 py-5 p-5">
       {/* First Card */}
       <Card
         icon="fa-light fa-database"

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:px-20">
+    <div className="container mt-20 mx-auto px-4 md:px-8 lg:px-16 xl:px-20">
       <div className="py-4 md:py-24 lg:py-32 xl:py-8 text-black flex flex-col md:flex-row items-center">
         <div className="max-w-7xl mx-auto md:w-1/2 text-center md:text-left md:pr-8">
           <h1 className="text-base md:text-xl lg:text-xl xl:text-base font-semibold mb-2 text-gray-400 uppercase">
