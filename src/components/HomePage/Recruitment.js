@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../Button";
 
 const Recruitment = () => {
   return (
@@ -7,10 +7,9 @@ const Recruitment = () => {
       <div className="max-w-5xl mx-auto text-center text-lg">
         <h1 className="text-4xl font-semibold mb-3">Steps of Recruitment Process</h1>
 
-        <p className="text-base md:text-lg lg:text-neutral-400">
+        <p className="max-w-md mx-auto text-base md:text-lg lg:text-neutral-400">
           We can help you with picking out the best people for your company
         </p>
-
 
         <div className="overflow-x-auto">
           <div className="flex space-x-16">
