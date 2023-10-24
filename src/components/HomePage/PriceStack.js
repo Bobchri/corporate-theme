@@ -4,9 +4,9 @@ import PriceCard from "../Cards/PriceCard";
 const PriceStack = () => {
   return (
      <div className="container mx-auto">
-        <div className="max-w-8xl mx-auto text-center text-lg p-20">
+        <div className="max-w-8xl mx-auto text-center text-lg px-20">
         <p className="text-base md:text-lg lg:text-neutral-500 mb-3">PREDICTABLE PRICING</p>
-        <h1 className="max-w-xl mx-auto text-4xl font-semibold">Choose the right plan for your business</h1>
+        <h1 className="max-w-xl mx-auto text-4xl font-semibold py-2">Choose the right plan for your business</h1>
         <div className="overflow-hidden grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 p-5">
       
       {/* First Card */}
