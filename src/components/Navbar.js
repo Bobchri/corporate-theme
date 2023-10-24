@@ -32,7 +32,7 @@ const Navbar = () => {
             alt="Company Logo"
             width={50}
             height={50}
-            className="h-10 w-auto ml-[25%]"
+            className="h-10 w-auto ml-[15%]"
           />
         </div>
       </div>
