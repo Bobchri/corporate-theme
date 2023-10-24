@@ -3,13 +3,14 @@ import Button from "./Button";
 
 const Recruitment = () => {
   return (
-    <div className="container mx-auto p-20">
-      <div className="max-w-4xl mx-auto text-center text-lg">
+    <div className="container mx-auto p-10">
+      <div className="max-w-5xl mx-auto text-center text-lg">
         <h1 className="text-4xl font-semibold mb-3">Steps of Recruitment Process</h1>
 
         <p className="text-base md:text-lg lg:text-neutral-400">
           We can help you with picking out the best people for your company
         </p>
+
 
         <div className="overflow-x-auto">
           <div className="flex space-x-16">
@@ -50,14 +51,18 @@ const Recruitment = () => {
               <div className="w-28 h-28 shadow-lg  bg-white rounded-full flex items-center justify-center">
                 <span className="text-orange-500 text-2xl font-semibold">04</span>
               </div>
+              
               <h5 className="text-xl font-semibold mt-4">UI/UX Design</h5>
               <p className="text-base md:text-lg lg:text-neutral-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
                 erat orci.
               </p>
-            </div>
+              </div>
+            
           </div>
+
         </div>
+
 
         <Button bgColor="white" textColor="black" text="Online Application" />
       </div>

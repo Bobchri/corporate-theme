@@ -3,7 +3,7 @@ import "font-awesome/css/font-awesome.min.css";
 
 const Card = ({ icon, title, content }) => {
   return (
-    <div class="max-w-xs rounded overflow-hidden shadow-lg bg-white py-10 px-5">
+    <div class="max-w-xl rounded overflow-hidden shadow-lg bg-white py-10 px-5">
  
   <div class="text-4xl text-gray-600 px-5">
     <i class={`text-4xl text-gray-500 fa ${icon} mb-4`}></i>
