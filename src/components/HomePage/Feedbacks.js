@@ -7,7 +7,7 @@ import Avatar3 from '../HomePage/assets/avatar-3.png'
 const Feedbacks = () => {
   return (
     <div className="container mx-auto">
-      <div className="max-w-8xl mx-auto text-center text-lg px-20 my-20">
+      <div className="max-w-8xl mx-auto text-center text-lg p-5 my-10">
         <p className="text-base md:text-lg lg:text-neutral-500"><span className="text-orange-500 font-semibold">50,000+ </span>HAPPY USERS</p>
         <h1 className="text-4xl font-semibold mb-3">See why they love it so much!</h1>
 
