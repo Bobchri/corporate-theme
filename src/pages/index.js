@@ -4,6 +4,7 @@ import Banner from "@/components/Banner";
 import CardStack from "@/components/Cards/CardStack";
 import Features from "@/components/Features";
 import Recruitment from "@/components/Recruitment";
+import Feedbacks from "@/components/Feedbacks";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <CardStack />
       <Features />
       <Recruitment/>
+      <Feedbacks/>
     </DefaultLayout>
   );
 };
