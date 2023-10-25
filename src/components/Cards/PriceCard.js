@@ -1,7 +1,8 @@
 import React from "react";
+import Link from "next/link";
 import "font-awesome/css/font-awesome.min.css";
 
-const PriceCard = ({ price, plan, packageName, content }) => {
+const PriceCard = ({ price, plan, packageName, products, storage, bandwidth }) => {
   return (
     <div class="max-w-xl rounded overflow-hidden shadow-lg bg-white pb-5">
   <div class="text-5xl font-bold p-10 bg-orange-500">
@@ -10,11 +11,18 @@ const PriceCard = ({ price, plan, packageName, content }) => {
   
   <div class="px-10 py-10">
     <p class="text-orange-500 text-base font-semibold">{plan}</p>
-    <h2 class="text-2xl font-bold mb-2">{packageName}</h2>
-    <p class="text-gray-700 text-base">{content}</p>
+    <h2 class="text-2xl font-bold my-2">{packageName}</h2>
+
+    <ul className="mx-auto text-slate-500 text-base">
+            <li className="py-2">{products}</li>
+            <li className="py-2">{storage}</li>
+            <li className="py-2">Free Support</li>
+            <li className="py-2">Unlimited Users</li>
+            <li className="pt-2">{bandwidth}</li>
+          </ul>
   </div>
-  <div class="px-6">
-    <a href="#" class="font-bold hover:text-orange-500 transition-colors duration-300">Purchase Now </a>
+  <div class="pb-5">
+    <a href="#" class="font-bold hover:text-orange-500 transition-colors duration-300 hover:underline underline-offset-8">Purchase Now </a>
   </div>
 </div>
   );

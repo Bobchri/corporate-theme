@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import RatingStars from "../subComponents/RatingStars";
+import RatingStars from "../RatingStars";
 
 const FeedbackCard = ({ avatar, name, comment, stars, role }) => {
   return (

@@ -29,7 +29,7 @@ const Footer = () => {
             </span>
           </p>
           <p className="text-sm text-left">
-            Fax:{" "}
+            Phone:{" "}
             <span className="text-sm text-slate-400">{contactData.fax} </span>
           </p>
         </div>

@@ -14,7 +14,9 @@ const PriceStack = () => {
         price="$29"
         plan={"Basic Plan"}
         packageName="Starter Design"
-        content="This was released more than 6 years ago and it is still one of the top selling themes, based on stable framework."
+        products="5 Products"
+        storage="5GB Storage"
+        bandwidth="10GB Bandwidth"
       />
 
       {/* Second Card */}
@@ -22,7 +24,9 @@ const PriceStack = () => {
         price="$49"
         plan={"Normal Plan"}
         packageName="Medium Design"
-        content="This is a consistent and reliable theme, we're improving it all the time adding new features, staying on top."
+        products="15 Products"
+        storage="30GB Storage"
+        bandwidth="50GB Bandwidth"
       />
 
       {/* Third Card */}
@@ -30,7 +34,9 @@ const PriceStack = () => {
         price="$69"
         plan={"Pros Plan"}
         packageName="Premium Design"
-        content="We have many returning customers that got to trust us as a solid partner. Join the 50,000+ happy BDesign users."
+        products="Unlimited Products" 
+        storage="Unlimited Storage" 
+        bandwidth="Unlimited Bandwidth"
       />
 
     </div>
