@@ -6,6 +6,7 @@ import Features from "@/components/HomePage/Features";
 import Recruitment from "@/components/HomePage/Recruitment";
 import Feedbacks from "@/components/HomePage/Feedbacks";
 import PriceStack from "@/components/HomePage/PriceStack";
+import Jumbotron from "@/components/HomePage/Jumbotron";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <CardStack />
       <Features />
       <Recruitment/>
+      <Jumbotron/>
       <PriceStack/>
       <Feedbacks/>
     </DefaultLayout>

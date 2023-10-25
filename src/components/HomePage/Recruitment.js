@@ -56,12 +56,9 @@ const Recruitment = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
                 erat orci.
               </p>
-              </div>
-            
+              </div>         
           </div>
-
         </div>
-
 
         <Button bgColor="white" textColor="black" text="Online Application" />
       </div>
