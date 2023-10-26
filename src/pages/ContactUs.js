@@ -1,31 +1,15 @@
 "use client";
 import React from "react";
 import DefaultLayout from "@/layout/DefaultLayout";
+import DetailsStack from "@/components/ContactUs/DetailsStack";
+import ContactBreadCrumb from "@/components/breadcrumbs/contactBreadCrumb";
 
 const ContactUs = () => {
   return (
     <DefaultLayout>
-      <div class=" p-5">
-        <h1>Contact Us</h1>
-        <h1>Contact Us</h1>
-        <h1>Contact Us</h1>
-        <h1>Contact Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
-        <h1>About Us</h1>
+      <div className="p-5">
+        <ContactBreadCrumb />
+        <DetailsStack />
       </div>
     </DefaultLayout>
   );

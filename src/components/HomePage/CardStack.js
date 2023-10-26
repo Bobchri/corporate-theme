@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../Cards/Card";
+import Card from "../card/Card";
 
 const CardStack = () => {
   return (
@@ -24,7 +24,6 @@ const CardStack = () => {
         title="Growth Trends 2023"
         content="We have many returning customers that got to trust us as a solid partner. Join the 50,000+ happy BDesign users."
       />
-
     </div>
   );
 };
