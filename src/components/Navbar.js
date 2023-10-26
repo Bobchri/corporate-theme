@@ -78,7 +78,7 @@ const Navbar = () => {
           </a>
           {showPagesSubNav && (
             <ul
-              className="absolute left-0 mt-2 text-sm px-5 bg-slate-100 border rounded border-white w-52"
+              className="absolute left-0 mt-1 text-sm px-5 bg-slate-100 border rounded border-white w-52"
               onMouseEnter={() => setShowPagesSubNav(true)} // Keep the dropdown open when the user hovers over the dropdown list
               onMouseLeave={() => setShowPagesSubNav(false)} // Close the dropdown when the user stops hovering over both the link and the dropdown list
               style={{ top: "80%" }}
@@ -222,9 +222,9 @@ const Navbar = () => {
       {/* Mobile Menu (Dropdown) */}
       {showMobileMenu && (
         <div className="lg:hidden flex flex-col mt-1 space-y-2">
-          <a
+          <Link
             id="strike"
-            href="#"
+            href="/"
             className={`text-white hover:text-gray-300 ${
               selectedLink === "Home" ? "selected" : ""
             }`}
@@ -234,7 +234,7 @@ const Navbar = () => {
             }}
           >
             Home
-          </a>
+          </Link>
 
           {/* Pages - Add a sub-navigation dropdown */}
           <div className="relative">
@@ -252,7 +252,7 @@ const Navbar = () => {
             </a>
 
             {showMobilePagesSubNav && (
-              <ul className="relative left-0 mt-2 text-sm px-5 bg-slate-100 border rounded border-white w-52">
+              <ul className="relative left-0 mt-2 text-sm px-5 bg-slate-100 border rounded border-white w-full">
                 {/* Sub-navigation: Pages */}
                 <li className="py-2">
                   <Link
@@ -330,7 +330,7 @@ const Navbar = () => {
               News
             </a>
             {showMobileNewsSubNav && (
-              <ul className="relative left-0 mt-2 text-sm px-5 bg-slate-100 border rounded border-white w-52">
+              <ul className="relative left-0 mt-2 text-sm px-5 bg-slate-100 border rounded border-white w-full">
                 {/* Sub-navigation: Pages */}
                 <li className="py-2">
                   <Link
@@ -380,7 +380,7 @@ const Navbar = () => {
       )}
 
       {/* Hamburger Icon (Mobile) */}
-      <div className="lg:hidden flex items-center justify-end">
+      <div className="lg:hidden flex items-center justify-end m-1">
         <button
           onClick={toggleMobileMenu}
           className="text-white hover:text-orange-500 focus:outline-none pb-2"
