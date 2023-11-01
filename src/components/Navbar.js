@@ -223,7 +223,6 @@ const Navbar = () => {
       {showMobileMenu && (
         <div className="lg:hidden flex flex-col mt-1 space-y-2">
           <Link
-            id="strike"
             href="/"
             className={`text-white hover:text-gray-300 ${
               selectedLink === "Home" ? "selected" : ""
@@ -252,12 +251,12 @@ const Navbar = () => {
             </a>
 
             {showMobilePagesSubNav && (
-              <ul className="relative left-0 mt-2 text-sm px-5 bg-slate-100 border rounded border-white w-full">
+              <ul className="relative left-0 mt-2 text-sm px-5 bg-black w-full">
                 {/* Sub-navigation: Pages */}
                 <li className="py-2">
                   <Link
                     href="/AboutUs"
-                    className="text-black hover:text-orange-500"
+                    className="text-white hover:text-orange-500"
                   >
                     About Us
                   </Link>
@@ -265,7 +264,7 @@ const Navbar = () => {
                 <li className="py-2">
                   <Link
                     href="/ContactUs"
-                    className="text-black hover:text-orange-500"
+                    className="text-white hover:text-orange-500"
                   >
                     Contact Us
                   </Link>
@@ -273,7 +272,7 @@ const Navbar = () => {
                 <li className="py-2">
                   <Link
                     href="/Services"
-                    className="text-black hover:text-orange-500"
+                    className="text-white hover:text-orange-500"
                   >
                     Services
                   </Link>
@@ -281,7 +280,7 @@ const Navbar = () => {
                 <li className="py-2">
                   <Link
                     href="/Testimonials"
-                    className="text-black hover:text-orange-500"
+                    className="text-white hover:text-orange-500"
                   >
                     Testimonials
                   </Link>
@@ -289,7 +288,7 @@ const Navbar = () => {
                 <li className="py-2">
                   <a
                     href="Error404"
-                    className="text-black hover:text-orange-500"
+                    className="text-white hover:text-orange-500"
                   >
                     Error 404
                   </a>
@@ -330,12 +329,12 @@ const Navbar = () => {
               News
             </a>
             {showMobileNewsSubNav && (
-              <ul className="relative left-0 mt-2 text-sm px-5 bg-slate-100 border rounded border-white w-full">
+              <ul className="relative left-0 mt-2 text-sm px-5 bg-black w-full">
                 {/* Sub-navigation: Pages */}
                 <li className="py-2">
                   <Link
                     href="/Classic"
-                    className="text-black hover:text-orange-500"
+                    className="text-white hover:text-orange-500"
                   >
                     Classic
                   </Link>
@@ -343,7 +342,7 @@ const Navbar = () => {
                 <li className="py-2">
                   <Link
                     href="/Grid"
-                    className="text-black hover:text-orange-500"
+                    className="text-white hover:text-orange-500"
                   >
                     Grid
                   </Link>
@@ -351,7 +350,7 @@ const Navbar = () => {
                 <li className="py-2">
                   <Link
                     href="/Masonary"
-                    className="text-black hover:text-orange-500"
+                    className="text-white hover:text-orange-500"
                   >
                     Masonary
                   </Link>
@@ -359,7 +358,7 @@ const Navbar = () => {
                 <li className="py-2">
                   <Link
                     href="/Timeline"
-                    className="text-black hover:text-orange-500"
+                    className="text-white hover:text-orange-500"
                   >
                     Timeline
                   </Link>
@@ -367,7 +366,7 @@ const Navbar = () => {
                 <li className="py-2">
                   <a
                     href="/SinglePost"
-                    className="text-black hover:text-orange-500"
+                    className="text-white hover:text-orange-500"
                   >
                     Single
                   </a>
