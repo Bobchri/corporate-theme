@@ -3,7 +3,7 @@ import ContactCard from "../card/ContactCard";
 
 const DetailsStack = () => {
   return (
-    <div className="bg-gray-100 py-20 justify-center my-3">
+    <div className=" py-20 justify-center my-3">
       <div className="container px-auto text-center overflow-hidden mx-auto flex flex-grow">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 p-5">
           {/* First Card */}
