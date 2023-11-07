@@ -1,4 +1,5 @@
 import DefaultLayout from "@/layout/DefaultLayout";
+import Head from "next/head";
 
 import Banner from "@/components/HomePage/Banner";
 import CardStack from "@/components/HomePage/CardStack";
@@ -11,13 +12,16 @@ import Jumbotron from "@/components/HomePage/Jumbotron";
 const Home = () => {
   return (
     <DefaultLayout>
+      <Head>
+        <title>BDesign | Corporate Theme</title>
+      </Head>
       <Banner />
       <CardStack />
       <Features />
-      <Recruitment/>
-      <Jumbotron/>
-      <PriceStack/>
-      <Feedbacks/>
+      <Recruitment />
+      <Jumbotron />
+      <PriceStack />
+      <Feedbacks />
     </DefaultLayout>
   );
 };
