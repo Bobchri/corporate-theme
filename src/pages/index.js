@@ -12,9 +12,7 @@ import Jumbotron from "@/components/HomePage/Jumbotron";
 const Home = () => {
   return (
     <DefaultLayout>
-      <Head>
-        <title>BDesign | Corporate Theme</title>
-      </Head>
+
       <Banner />
       <CardStack />
       <Features />
