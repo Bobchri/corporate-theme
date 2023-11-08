@@ -1,8 +1,8 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/layoutComponents/Navbar";
 import ThemeSwitch from "@/components/ThemeSwitch";
-import CircularProgressBar from "@/components/CircularProgressBar";
-import Footer from "@/components/Footer";
-import Loader from "@/components/Loader";
+import CircularProgressBar from "@/components/layoutComponents/CircularProgressBar";
+import Footer from "@/components/layoutComponents/Footer";
+import Loader from "@/components/layoutComponents/Loader";
 import Head from "next/head";
 import { React, useState, useEffect } from "react";
 
@@ -17,7 +17,7 @@ const DefaultLayout = ({ children }) => {
   return (
     <div>
       <Head>
-        <title>Welcome | Borneel Bikash Phukan</title>
+        <title>BDesign | Corporate Theme Template</title>
       </Head>
       {isLoading ? (
         <Loader />

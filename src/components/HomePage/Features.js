@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../Button";
-import FeatureBanner from '../HomePage/assets/features-banner.png'
+import Button from "../buttons/Button";
+import FeatureBanner from "../HomePage/assets/features-banner.png";
 import Image from "next/image";
 
 const Features = () => {

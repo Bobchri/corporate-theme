@@ -3,7 +3,7 @@ import OurTeamCard from "../card/OurTeamCard";
 import Member1 from "../AboutUs/assets/member-1.jpg";
 import Member2 from "../AboutUs/assets/member-2.jpg";
 import Member3 from "../AboutUs/assets/member-3.jpg";
-import Button from "../Button";
+import Button from "../buttons/Button";
 
 const OurTeam = () => {
   return (

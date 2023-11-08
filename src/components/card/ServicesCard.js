@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Button from "../Button";
+import Button from "../buttons/Button";
 
 const ServicesCard = ({ avatar, serviceName, description }) => {
   return (
