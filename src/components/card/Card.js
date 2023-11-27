@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import "font-awesome/css/font-awesome.min.css";
 
 const Card = ({ icon, title, content }) => {
@@ -13,12 +14,12 @@ const Card = ({ icon, title, content }) => {
         <p className="text-gray-700 text-base">{content}</p>
       </div>
       <div className="px-6 py-4">
-        <a
-          href="#"
+        <Link
+          href="/AboutUs"
           className="font-bold hover:text-orange-500 transition-colors duration-300 underline underline-offset-8"
         >
           Read More
-        </a>
+        </Link>
       </div>
     </div>
   );

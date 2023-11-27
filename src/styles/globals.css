@@ -90,3 +90,11 @@ body {
   height: 55vh;
   /* Adjust as needed */
 }
+
+.contact-cover {
+  background-image: url("/images/banners/contact-banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  /* Adjust as needed */
+}
