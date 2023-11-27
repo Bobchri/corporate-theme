@@ -2,7 +2,7 @@ import DefaultLayout from "@/layout/DefaultLayout";
 import Head from "next/head";
 
 import Banner from "@/components/HomePage/Banner";
-import CardStack from "@/components/HomePage/CardStack";
+import MainCardStack from "@/components/HomePage/MainCardStack";
 import Features from "@/components/HomePage/Features";
 import Recruitment from "@/components/HomePage/Recruitment";
 import Feedbacks from "@/components/HomePage/Feedbacks";
@@ -14,7 +14,7 @@ const Home = () => {
     <DefaultLayout>
 
       <Banner />
-      <CardStack />
+      <MainCardStack />
       <Features />
       <Recruitment />
       <Jumbotron />

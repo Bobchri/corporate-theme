@@ -1,8 +1,6 @@
 import React from "react";
 import FeedbackCard from "../card/FeedbackCard";
-import Avatar1 from "../HomePage/assets/avatar-1.png";
-import Avatar2 from "../HomePage/assets/avatar-2.png";
-import Avatar3 from "../HomePage/assets/avatar-3.png";
+import feedbackData from "@/data/feedbackData";
 
 const Feedbacks = () => {
   return (
@@ -22,32 +20,16 @@ const Feedbacks = () => {
         </p>
 
         <div className="px-auto overflow-hidden grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 p-1">
-          {/* First Card */}
-          <FeedbackCard
-            avatar={Avatar1}
-            name="John Doe"
-            comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis."
-            stars={5}
-            role="Customer"
-          />
-
-          {/* Second Card */}
-          <FeedbackCard
-            avatar={Avatar2}
-            name="Tom Jackson"
-            comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis."
-            stars={4}
-            role="Customer"
-          />
-
-          {/* Third Card */}
-          <FeedbackCard
-            avatar={Avatar3}
-            name="Henry Harry"
-            comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis."
-            stars={5}
-            role="Logistician"
-          />
+          {feedbackData.map((data, index) => (
+            <FeedbackCard
+              key={index}
+              avatar={data.avatar}
+              name={data.name}
+              comment={data.comment}
+              stars={data.stars}
+              role={data.role}
+            />
+          ))}
         </div>
       </div>
     </div>
