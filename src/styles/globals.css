@@ -98,3 +98,11 @@ body {
   height: 55vh;
   /* Adjust as needed */
 }
+
+.team-cover {
+  background-image: url("/images/banners/ourteam-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  /* Adjust as needed */
+}

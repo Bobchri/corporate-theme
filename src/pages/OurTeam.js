@@ -1,12 +1,13 @@
 "use client";
 import React from "react";
 import DefaultLayout from "@/layout/DefaultLayout";
+import TeamBanner from "@/components/OurTeam/TeamBanner";
 
 const OurTeam = () => {
   return (
     <DefaultLayout>
       <div>
-        <h1>Our Team</h1>
+        <TeamBanner/>
       </div>
     </DefaultLayout>
   );

@@ -31,7 +31,6 @@ const AboutUsCrumb = () => {
               />
             </svg>
             <p
-              href="/AboutUs"
               className="ml-1 text-sm font-normal text-gray-700 md:ml-2 dark:text-gray-400 dark:hover:text-orange"
             >
               About Us

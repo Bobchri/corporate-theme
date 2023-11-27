@@ -30,10 +30,7 @@ const TestimonialsCrumb = () => {
                 d="m1 9 4-4-4-4"
               />
             </svg>
-            <p
-              href="/Testimonials"
-              className="ml-1 text-sm font-normal md:ml-2 dark:text-gray-400 dark:hover:text-orange"
-            >
+            <p className="ml-1 text-sm font-normal md:ml-2 dark:text-gray-400 dark:hover:text-orange">
               Testimonials
             </p>
           </div>

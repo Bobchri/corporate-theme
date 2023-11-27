@@ -8,7 +8,6 @@ import Recruitment from "@/components/HomePage/Recruitment";
 import Feedbacks from "@/components/HomePage/Feedbacks";
 import PriceStack from "@/components/HomePage/PriceStack";
 import Jumbotron from "@/components/HomePage/Jumbotron";
-import ContactBreadCrumb from "@/components/breadcrumbs/ServiceCrumb";
 
 const Home = () => {
   return (
