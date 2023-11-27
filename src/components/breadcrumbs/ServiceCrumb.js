@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
-const ContactBreadCrumb = () => {
+const ServiceCrumb = () => {
   return (
     <nav className="flex" aria-label="Breadcrumb">
-      <ol className="inline-flex items-center space-x-1 md:space-x-3">
+      <ol className="container inline-flex items-center space-x-1 md:space-x-3 m-4 md:pl-20 pl-4">
         <li className="inline-flex items-center">
           <Link
             href="/"
@@ -30,12 +30,12 @@ const ContactBreadCrumb = () => {
                 d="m1 9 4-4-4-4"
               />
             </svg>
-            <Link
-              href="/ContactUs"
-              className="ml-1 text-sm font-normal text-gray-700 hover:text-orange-500 md:ml-2 dark:text-gray-400 dark:hover:text-orange"
+            <p
+              href="/Services"
+              className="ml-1 text-sm font-normal text-gray-700 md:ml-2 dark:text-gray-400 dark:hover:text-orange"
             >
-              Contact Us
-            </Link>
+              Services
+            </p>
           </div>
         </li>
       </ol>
@@ -43,4 +43,4 @@ const ContactBreadCrumb = () => {
   );
 };
 
-export default ContactBreadCrumb;
+export default ServiceCrumb;

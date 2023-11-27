@@ -69,8 +69,24 @@ body {
 }
 
 .home-container {
-  background-image: url("/images/banner-background.jpg");
+  background-image: url("/images/banners/banner-background.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh; /* Adjust as needed */
+}
+
+.about-cover {
+  background-image: url("/images/banners/about-banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  /* Adjust as needed */
+}
+
+.service-cover {
+  background-image: url("/images/banners/service-banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  /* Adjust as needed */
 }

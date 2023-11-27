@@ -2,13 +2,15 @@
 import React from "react";
 import DefaultLayout from "@/layout/DefaultLayout";
 import RoleCardStack from "@/components/Services/RoleCardStack";
+import ServiceBanner from "@/components/Services/ServiceBanner";
+import ServiceCrumb from "@/components/breadcrumbs/ServiceCrumb";
 
 const Services = () => {
   return (
     <DefaultLayout>
-      <div className="p-5 m-20">
-        <RoleCardStack />
-      </div>
+      <ServiceBanner />
+      <ServiceCrumb />
+      <RoleCardStack />
     </DefaultLayout>
   );
 };
