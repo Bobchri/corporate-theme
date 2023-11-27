@@ -1,14 +1,14 @@
 import React from "react";
 import Link from "next/link";
 
-const ServiceCrumb = () => {
+const TestimonialsCrumb = () => {
   return (
     <nav className="flex" aria-label="Breadcrumb">
       <ol className="container inline-flex items-center space-x-1 md:space-x-3 m-4">
         <li className="inline-flex items-center">
           <Link
             href="/"
-            className="inline-flex items-center text-sm font-normal text-gray-700 hover:text-orange-500 dark:text-gray-400 dark:hover:text-orange"
+            className="inline-flex items-center text-sm font-normal hover:text-orange-500 dark:hover:text-orange"
           >
             Home
           </Link>
@@ -31,10 +31,10 @@ const ServiceCrumb = () => {
               />
             </svg>
             <p
-              href="/Services"
-              className="ml-1 text-sm font-normal text-gray-700 md:ml-2 dark:text-gray-400 dark:hover:text-orange"
+              href="/Testimonials"
+              className="ml-1 text-sm font-normal md:ml-2 dark:text-gray-400 dark:hover:text-orange"
             >
-              Services
+              Testimonials
             </p>
           </div>
         </li>
@@ -43,4 +43,4 @@ const ServiceCrumb = () => {
   );
 };
 
-export default ServiceCrumb;
+export default TestimonialsCrumb;

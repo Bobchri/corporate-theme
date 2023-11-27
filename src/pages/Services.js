@@ -9,8 +9,12 @@ const Services = () => {
   return (
     <DefaultLayout>
       <ServiceBanner />
-      <ServiceCrumb />
-      <RoleCardStack />
+      <div className="container mx-auto">
+        <ServiceCrumb />
+        <div className="max-w-8xl mx-auto text-center text-lg">
+          <RoleCardStack />
+        </div>
+      </div>
     </DefaultLayout>
   );
 };

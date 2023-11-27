@@ -6,7 +6,13 @@ const FeedbackCard = ({ avatar, name, comment, stars, role }) => {
   return (
     <div className="max-w-xl rounded overflow-hidden shadow-lg bg-white py-10 px-5">
       <div className=" mx-auto bg-white rounded-full flex items-center justify-center">
-        <Image src={avatar} alt="Avatar" width={100} height={100} />
+        <Image
+          src={avatar}
+          alt="Avatar"
+          width={100}
+          height={100}
+          className="rounded-full"
+        />
       </div>
 
       <div className="px-6 py-4">
