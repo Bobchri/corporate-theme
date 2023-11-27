@@ -6,9 +6,7 @@ import TeamBanner from "@/components/OurTeam/TeamBanner";
 const OurTeam = () => {
   return (
     <DefaultLayout>
-      <div>
-        <TeamBanner/>
-      </div>
+      <TeamBanner />
     </DefaultLayout>
   );
 };
