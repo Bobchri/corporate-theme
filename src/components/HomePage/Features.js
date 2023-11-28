@@ -11,7 +11,7 @@ const Features = () => {
           <h1 className="text-base md:text-xl lg:text-xl xl:text-base font-semibold mb-2 text-gray-400 uppercase">
             Features
           </h1>
-          <h1 className="text-4xl font-semibold ">Create your own unique</h1>
+          <h1 className="text-4xl font-semibold">Create your own unique</h1>
           <h1 className="md:text-4xl lg:text-4xl xl:text-4xl font-semibold text-4xl mb-4">
             website & have fun doing it!
           </h1>

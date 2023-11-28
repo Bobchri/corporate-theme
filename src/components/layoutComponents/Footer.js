@@ -72,7 +72,7 @@ const Footer = () => {
                 <li className="py-1">
                   <Link
                     className="text-sm text-slate-400 hover:text-orange-500"
-                    href="#"
+                    href="/ContactUs"
                   >
                     Contact Us
                   </Link>

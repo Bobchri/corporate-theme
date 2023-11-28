@@ -10,11 +10,11 @@ const MembersCard = ({ avatar, name, role, description }) => {
       <div className="max-w-xl rounded overflow-hidden shadow-lg bg-white py-10 px-5">
         <div className="h-48 w-48 mx-auto rounded-full flex items-center justify-center overflow-hidden">
           <Image
-            className="w-full h-full object-cover"
+            className="hover:scale-125 transition-all duration-500 cursor-pointer w-full h-full object-cover"
             src={avatar}
             alt="Avatar"
-            width={100}
-            height={100}
+            width={500}
+            height={500}
           />
         </div>
 

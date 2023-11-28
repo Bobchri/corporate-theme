@@ -21,7 +21,7 @@ const PriceCard = ({
 
       <div className="px-10 py-10">
         <p className="text-orange-500 text-base font-semibold">{plan}</p>
-        <h2 className="text-2xl font-bold my-2">{packageName}</h2>
+        <h2 className="text-black text-2xl font-bold my-2">{packageName}</h2>
 
         <ul className="mx-auto text-slate-500 text-base">
           <li className="py-2">{products}</li>
@@ -34,7 +34,7 @@ const PriceCard = ({
       <div className="pb-5">
         <a
           href="#"
-          className="font-bold hover:text-orange-500 transition-colors duration-300 hover:underline underline-offset-8"
+          className="text-black font-bold hover:text-orange-500 transition-colors duration-300 hover:underline underline-offset-8"
         >
           Purchase Now{" "}
         </a>

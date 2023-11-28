@@ -23,7 +23,7 @@ const Jumbotron = () => {
           <p className="text-center text-base md:text-lg lg:text-orange-500">
             WHAT WE DO
           </p>
-          <h5 className="text-2xl text-center font-semibold m-3">
+          <h5 className="text-black text-2xl text-center font-semibold m-3">
             Need a solid theme you can count on? Look no further!
           </h5>
           <p className="max-w-md mx-auto text-base md:text-lg lg:text-neutral-400">

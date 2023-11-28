@@ -210,12 +210,12 @@ const Navbar = () => {
 
         {/*Contact Us Button*/}
         <div className="flex justify-center lg:mt-0">
-          <a
-            href="#contact-us"
+          <Link
+            href="/ContactUs"
             className="bg-orange-600 text-white hover:bg-orange-800 ml-5 mb-3 p-2 rounded"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -375,7 +375,6 @@ const Navbar = () => {
               </ul>
             )}
           </div>
-
         </div>
       )}
 
