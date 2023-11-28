@@ -1,6 +1,7 @@
 import React from "react";
 import contactData from "@/data/contact-data.json";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -132,6 +133,12 @@ const Footer = () => {
           <div>
             <h2 className="text-xl font-semibold mb-4">Our Location</h2>
             {/* Your content for column 4 */}
+            <Image
+              src={"/images/footer-map.jpg"}
+              alt="Map"
+              width={500}
+              height={500}
+            />
           </div>
         </div>
       </div>
