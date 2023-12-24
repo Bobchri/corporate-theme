@@ -1,12 +1,27 @@
 "use client";
-import React from "react";
+import { React, useState, useEffect } from "react";
 import DefaultLayout from "@/layout/DefaultLayout";
 import TestimonialsBanner from "@/components/Testimonials/TestimonialsBanner";
 import TestimonialsCrumb from "@/components/breadcrumbs/TestimonialsCrumb";
 import FeedbackCard from "@/components/card/FeedbackCard";
-import testimonialsData from "@/data/testimonialsData.json";
 
 const Testimonials = () => {
+  const [testimonialsData, setTestimonialsData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/api/testimonials"); // Assuming you have set up the API route as mentioned in the previous example
+        const data = await response.json();
+        setTestimonialsData(data.testimonialsData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <DefaultLayout>
       <TestimonialsBanner />
