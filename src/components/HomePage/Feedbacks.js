@@ -1,8 +1,23 @@
-import React from "react";
+import { React, useState, useEffect } from "react";
 import FeedbackCard from "../card/FeedbackCard";
-import feedbackData from "@/data/feedbackData";
 
 const Feedbacks = () => {
+  const [feedbackData, setFeedbackData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/api/feedbacks"); // Assuming you have set up the API route as mentioned in the previous example
+        const data = await response.json();
+        setFeedbackData(data.feedbackData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <div className="container mx-auto">
       <div className="max-w-8xl mx-auto text-center text-lg p-5 my-10">
