@@ -7,7 +7,7 @@ const MemberStack = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/api/mongo"); // Assuming you have set up the API route as mentioned in the previous example
+        const response = await fetch("/api/members"); // Assuming you have set up the API route as mentioned in the previous example
         const data = await response.json();
         setTeamData(data.teamData);
       } catch (error) {
