@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import "font-awesome/css/font-awesome.min.css";
 
 const PriceCard = ({
