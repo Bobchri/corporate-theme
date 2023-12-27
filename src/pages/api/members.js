@@ -2,13 +2,12 @@ import { MongoClient } from "mongodb";
 
 export default async function handler(req, res) {
   try {
-    // Connection URI
-    const uri =
-      "mongodb+srv://borneelphukan:borneel1999@cluster0.wze4ltn.mongodb.net/?retryWrites=true&w=majority";
+    // Set your MongoDB connection URI as an environment variable
+    const uri = process.env.MONGODB_URI;
 
     // Connect to MongoDB
     const client = await MongoClient.connect(uri);
-    const db = client.db("text-data");
+    const db = client.db(process.env.DB_NAME); // Use a separate environment variable for the database name
 
     // Fetch data from the team-data collection
     const teamDataCollection = db.collection("team-data");
