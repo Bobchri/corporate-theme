@@ -16,7 +16,7 @@ const CircularScrollProgressBar = () => {
       const totalScrollHeight =
         document.documentElement.scrollHeight - window.innerHeight;
       const scrolled = window.scrollY;
-      const percentage = (scrolled / totalScrollHeight) * 100;
+      const percentage = (scrolled / totalScrollHeight) * 115;
       setProgress(percentage);
     };
 
