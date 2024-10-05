@@ -95,7 +95,7 @@ const Navbar = () => {
               <li className="py-2">
                 <Link
                   className="text-black hover:text-orange-500"
-                  href="/ContactUs"
+                  href="/Contact"
                 >
                   Contact Us
                 </Link>
@@ -211,7 +211,7 @@ const Navbar = () => {
         {/*Contact Us Button*/}
         <div className="flex justify-center lg:mt-0">
           <Link
-            href="/ContactUs"
+            href="/Contact"
             className="bg-orange-600 text-white hover:bg-orange-800 ml-5 mb-3 p-2 rounded"
           >
             Contact Us
@@ -263,7 +263,7 @@ const Navbar = () => {
                 </li>
                 <li className="py-2">
                   <Link
-                    href="/ContactUs"
+                    href="/Contact"
                     className="text-white hover:text-orange-500"
                   >
                     Contact Us

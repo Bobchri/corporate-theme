@@ -1,13 +1,13 @@
 import DefaultLayout from "@/layout/DefaultLayout";
 import Head from "next/head";
 
-import Banner from "@/components/HomePage/Banner";
-import MainCardStack from "@/components/HomePage/MainCardStack";
-import Features from "@/components/HomePage/Features";
-import Recruitment from "@/components/HomePage/Recruitment";
-import Feedbacks from "@/components/HomePage/Feedbacks";
-import PriceStack from "@/components/HomePage/PriceStack";
-import Jumbotron from "@/components/HomePage/Jumbotron";
+import Banner from "@/components/Home/Banner";
+import MainCardStack from "@/components/Home/MainCardStack";
+import Features from "@/components/Home/Features";
+import Recruitment from "@/components/Home/Recruitment";
+import Feedbacks from "@/components/Home/Feedbacks";
+import PriceStack from "@/components/Home/PriceStack";
+import Jumbotron from "@/components/Home/Jumbotron";
 
 const Home = () => {
   return (

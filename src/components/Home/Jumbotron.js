@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import jumbotron from "../HomePage/assets/jumbotron.jpg";
+import jumbotron from "../Home/assets/jumbotron.jpg";
 import Button from "../buttons/Button";
 
 const Jumbotron = () => {
