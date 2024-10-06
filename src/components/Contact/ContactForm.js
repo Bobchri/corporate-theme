@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "emailjs-com";
+import Button from "../buttons/Button";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -142,13 +143,13 @@ const ContactForm = () => {
                   rows={6}
                 />
               </div>
-              <div className="flex items-center justify-between">
-                <button
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              <div className="flex items-center justify-between my-[-9%]">
+                <Button
+                  bgColor="white"
+                  textColor="black"
+                  text="Send"
                   type="submit"
-                >
-                  Send
-                </button>
+                />
               </div>
             </form>
             <ToastContainer />

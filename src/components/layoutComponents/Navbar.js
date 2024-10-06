@@ -35,16 +35,13 @@ const Navbar = () => {
     <nav className="relative top-0 left-0 w-full bg-black py-1 px-6 flex flex-col">
       {/* Company Logo */}
       <div className="flex items-center mb-4 pl-10 pt-2">
-        {/* Company Logo */}
-        <div className="flex items-center mb-4 pl-10 pt-2">
-          <Image
-            src="/navbar-logo.svg"
-            alt="Company Logo"
-            width={50}
-            height={50}
-            className="h-10 w-auto ml-[5%]"
-          />
-        </div>
+        <Image
+          src="/navbar-logo.svg"
+          alt="Company Logo"
+          width={50}
+          height={50}
+          className="h-10 w-auto ml-[5%]"
+        />
       </div>
 
       {/* Navigation Links */}
@@ -60,7 +57,7 @@ const Navbar = () => {
           Home
         </Link>
 
-        {/*Pages*/}
+        {/* Pages */}
         <div
           className="relative"
           onMouseEnter={() => setShowPagesSubNav(true)}
@@ -79,8 +76,8 @@ const Navbar = () => {
           {showPagesSubNav && (
             <ul
               className="absolute left-0 mt-1 text-sm px-5 bg-slate-100 border rounded border-white w-52"
-              onMouseEnter={() => setShowPagesSubNav(true)} // Keep the dropdown open when the user hovers over the dropdown list
-              onMouseLeave={() => setShowPagesSubNav(false)} // Close the dropdown when the user stops hovering over both the link and the dropdown list
+              onMouseEnter={() => setShowPagesSubNav(true)}
+              onMouseLeave={() => setShowPagesSubNav(false)}
               style={{ top: "80%" }}
             >
               {/* Sub-navigation: Pages */}
@@ -119,18 +116,16 @@ const Navbar = () => {
               <li className="py-2">
                 <Link
                   className="text-black hover:text-orange-500"
-                  href="Error404"
+                  href="/Error404"
                 >
                   Error 404
                 </Link>
               </li>
-              {/* Add more sub-navigation items if needed */}
             </ul>
           )}
         </div>
 
-        {/*Portfolio*/}
-        {/* Add the link to Portfolio here under href*/}
+        {/* Portfolio */}
         <a
           id="strike"
           href="/Portfolio"
@@ -142,7 +137,7 @@ const Navbar = () => {
           Portfolios
         </a>
 
-        {/*Our Team*/}
+        {/* Our Team */}
         <Link
           id="strike"
           href="/OurTeam"
@@ -154,7 +149,7 @@ const Navbar = () => {
           Our Team
         </Link>
 
-        {/*News*/}
+        {/* News */}
         <div
           className="relative"
           onMouseEnter={() => setNewsSubNav(true)}
@@ -173,11 +168,11 @@ const Navbar = () => {
           {showNewsSubNav && (
             <ul
               className="absolute left-0 mt-2 text-sm px-5 bg-slate-100 border rounded border-white w-52"
-              onMouseEnter={() => setNewsSubNav(true)} // Keep the dropdown open when the user hovers over the dropdown list
-              onMouseLeave={() => setNewsSubNav(false)} // Close the dropdown when the user stops hovering over both the link and the dropdown list
+              onMouseEnter={() => setNewsSubNav(true)}
+              onMouseLeave={() => setNewsSubNav(false)}
               style={{ top: "80%" }}
             >
-              {/* Sub-navigation link: News*/}
+              {/* Sub-navigation: News */}
               <li className="py-2">
                 <a href="#" className="text-black hover:text-orange-500">
                   Classic
@@ -203,12 +198,11 @@ const Navbar = () => {
                   Single Post
                 </a>
               </li>
-              {/* Add more sub-navigation items if needed */}
             </ul>
           )}
         </div>
 
-        {/*Contact Us Button*/}
+        {/* Contact Us Button */}
         <div className="flex justify-center lg:mt-0">
           <Link
             href="/Contact"
@@ -220,163 +214,157 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu (Dropdown) */}
-      {showMobileMenu && (
-        <div className="lg:hidden flex flex-col mt-1 space-y-2">
-          <Link
-            href="/"
-            className={`text-white hover:text-gray-300 ${
-              selectedLink === "Home" ? "selected" : ""
+      <div
+        className={`lg:hidden flex flex-col items-center justify-center mt-1 space-y-2 transition-max-height duration-500 ease-in-out overflow-hidden ${
+          showMobileMenu ? "max-h-[1000px]" : "max-h-0"
+        }`}
+      >
+        <Link
+          href="/"
+          className={`text-white hover:text-gray-300 text-center ${
+            selectedLink === "Home" ? "selected" : ""
+          }`}
+          onClick={() => {
+            handleLinkClick("Home");
+            toggleMobileMenu();
+          }}
+        >
+          Home
+        </Link>
+
+        {/* Pages - Add a sub-navigation dropdown */}
+        <div className="relative">
+          <a
+            href="#"
+            className={`text-white hover:text-orange-500 text-center ${
+              selectedLink === "Pages" ? "selected" : ""
             }`}
             onClick={() => {
-              handleLinkClick("Home");
+              handleLinkClick("Pages");
+              toggleSubNavPages();
+            }}
+          >
+            Pages
+          </a>
+          {showMobilePagesSubNav && (
+            <ul className="relative left-0 mt-2 text-sm px-5 bg-black w-full">
+              <li className="py-2">
+                <Link
+                  href="/AboutUs"
+                  className="text-white hover:text-orange-500"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li className="py-2">
+                <Link
+                  href="/Contact"
+                  className="text-white hover:text-orange-500"
+                >
+                  Contact Us
+                </Link>
+              </li>
+              <li className="py-2">
+                <Link
+                  href="/Services"
+                  className="text-white hover:text-orange-500"
+                >
+                  Services
+                </Link>
+              </li>
+              <li className="py-2">
+                <Link
+                  href="/Testimonials"
+                  className="text-white hover:text-orange-500"
+                >
+                  Testimonials
+                </Link>
+              </li>
+              <li className="py-2">
+                <Link
+                  href="/Error404"
+                  className="text-white hover:text-orange-500"
+                >
+                  Error 404
+                </Link>
+              </li>
+            </ul>
+          )}
+        </div>
+
+        {/* Portfolio */}
+        <div className="relative">
+          <a
+            href="#"
+            className={`text-white hover:text-orange-500 text-center ${
+              selectedLink === "Pages" ? "selected" : ""
+            }`}
+            onClick={() => {
+              handleLinkClick("Pages");
               toggleMobileMenu();
             }}
           >
-            Home
-          </Link>
-
-          {/* Pages - Add a sub-navigation dropdown */}
-          <div className="relative">
-            <a
-              href="#"
-              className={`text-white hover:text-orange-500 ${
-                selectedLink === "Pages" ? "selected" : ""
-              }`}
-              onClick={() => {
-                handleLinkClick("Pages");
-                toggleSubNavPages();
-              }}
-            >
-              Pages
-            </a>
-
-            {showMobilePagesSubNav && (
-              <ul className="relative left-0 mt-2 text-sm px-5 bg-black w-full">
-                {/* Sub-navigation: Pages */}
-                <li className="py-2">
-                  <Link
-                    href="/AboutUs"
-                    className="text-white hover:text-orange-500"
-                  >
-                    About Us
-                  </Link>
-                </li>
-                <li className="py-2">
-                  <Link
-                    href="/Contact"
-                    className="text-white hover:text-orange-500"
-                  >
-                    Contact Us
-                  </Link>
-                </li>
-                <li className="py-2">
-                  <Link
-                    href="/Services"
-                    className="text-white hover:text-orange-500"
-                  >
-                    Services
-                  </Link>
-                </li>
-                <li className="py-2">
-                  <Link
-                    href="/Testimonials"
-                    className="text-white hover:text-orange-500"
-                  >
-                    Testimonials
-                  </Link>
-                </li>
-                <li className="py-2">
-                  <a
-                    href="Error404"
-                    className="text-white hover:text-orange-500"
-                  >
-                    Error 404
-                  </a>
-                </li>
-                {/* Add more sub-navigation items if needed */}
-              </ul>
-            )}
-          </div>
-
-          {/* Portfolio - Add a sub-navigation dropdown */}
-          <div className="relative">
-            <a
-              href="#"
-              className={`text-white hover:text-orange-500 ${
-                selectedLink === "Pages" ? "selected" : ""
-              }`}
-              onClick={() => {
-                handleLinkClick("Pages");
-                toggleMobileMenu();
-              }}
-            >
-              Portfolio
-            </a>
-          </div>
-
-          {/* News - Add a sub-navigation dropdown */}
-          <div className="relative">
-            <a
-              href="#"
-              className={`text-white hover:text-orange-500 ${
-                selectedLink === "Pages" ? "selected" : ""
-              }`}
-              onClick={() => {
-                handleLinkClick("Pages");
-                toggleSubNavNews();
-              }}
-            >
-              News
-            </a>
-            {showMobileNewsSubNav && (
-              <ul className="relative left-0 mt-2 text-sm px-5 bg-black w-full">
-                {/* Sub-navigation: Pages */}
-                <li className="py-2">
-                  <Link
-                    href="/Classic"
-                    className="text-white hover:text-orange-500"
-                  >
-                    Classic
-                  </Link>
-                </li>
-                <li className="py-2">
-                  <Link
-                    href="/Grid"
-                    className="text-white hover:text-orange-500"
-                  >
-                    Grid
-                  </Link>
-                </li>
-                <li className="py-2">
-                  <Link
-                    href="/Masonary"
-                    className="text-white hover:text-orange-500"
-                  >
-                    Masonary
-                  </Link>
-                </li>
-                <li className="py-2">
-                  <Link
-                    href="/Timeline"
-                    className="text-white hover:text-orange-500"
-                  >
-                    Timeline
-                  </Link>
-                </li>
-                <li className="py-2">
-                  <a
-                    href="/SinglePost"
-                    className="text-white hover:text-orange-500"
-                  >
-                    Single
-                  </a>
-                </li>
-                {/* Add more sub-navigation items if needed */}
-              </ul>
-            )}
-          </div>
+            Portfolio
+          </a>
         </div>
-      )}
+
+        {/* News */}
+        <div className="relative">
+          <a
+            href="#"
+            className={`text-white hover:text-orange-500 text-center ${
+              selectedLink === "Pages" ? "selected" : ""
+            }`}
+            onClick={() => {
+              handleLinkClick("Pages");
+              toggleSubNavNews();
+            }}
+          >
+            News
+          </a>
+          {showMobileNewsSubNav && (
+            <ul className="relative left-0 mt-2 text-sm px-5 bg-black w-full">
+              <li className="py-2">
+                <Link
+                  href="/Classic"
+                  className="text-white hover:text-orange-500"
+                >
+                  Classic
+                </Link>
+              </li>
+              <li className="py-2">
+                <Link href="/Grid" className="text-white hover:text-orange-500">
+                  Grid
+                </Link>
+              </li>
+              <li className="py-2">
+                <Link
+                  href="/Masonary"
+                  className="text-white hover:text-orange-500"
+                >
+                  Masonary
+                </Link>
+              </li>
+              <li className="py-2">
+                <Link
+                  href="/Timeline"
+                  className="text-white hover:text-orange-500"
+                >
+                  Timeline
+                </Link>
+              </li>
+              <li className="py-2">
+                <a
+                  href="/SinglePost"
+                  className="text-white hover:text-orange-500"
+                >
+                  Single
+                </a>
+              </li>
+            </ul>
+          )}
+        </div>
+      </div>
 
       {/* Hamburger Icon (Mobile) */}
       <div className="lg:hidden flex items-center justify-end m-1">
