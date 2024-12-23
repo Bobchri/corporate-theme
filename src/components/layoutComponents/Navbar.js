@@ -34,16 +34,7 @@ const Navbar = () => {
   return (
     <nav className="relative top-0 left-0 w-full bg-black py-1 px-6 flex flex-col">
       {/* Company Logo */}
-      <div className="flex items-center mb-4 pl-10 pt-2">
-        <Image
-          src="/navbar-logo.svg"
-          alt="Company Logo"
-          width={50}
-          height={50}
-          className="h-10 w-auto ml-[5%]"
-        />
-      </div>
-
+      
       {/* Navigation Links */}
       <div className="hidden lg:flex justify-center space-x-8 mt-4">
         <Link
