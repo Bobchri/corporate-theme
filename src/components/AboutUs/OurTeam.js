@@ -16,23 +16,23 @@ const OurTeam = () => {
           {/* First Card */}
           <OurTeamCard
             avatar={Member1}
-            name="Tomasz Treflerzan"
-            role="CEO"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis."
+            name="Chrispin Odiwuor"
+            role="Founder"
+            description="Chrispin Odiwuor is the founder of Implimenta and a software engineer passionate about solving complex business problems through innovative solutions. With a keen interest in technology, Chrispin leverages expertise to create impactful software that drives business growth and efficiency."
           />
           {/* Second Card */}
           <OurTeamCard
             avatar={Member2}
-            name="Viktoriia Demianenko"
+            name="Victoria"
             role="Co-Founder"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis."
+            description="I’m Victoria, a passionate data scientist with a deep love for transforming data into actionable insights. I specialize in data analytics and machine learning, always seeking innovative solutions to complex problems. As a cofounder, I work together with the team to  create impactful and data-driven solutions that empower businesses to make smarter decisions and achieve their goals."
           />
           {/* Third Card */}
           <OurTeamCard
             avatar={Member3}
-            name="Robin Doe"
+            name="Mwangi Whitney"
             role="CFO"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis."
+            description="Mwangi Whitney is a seasoned Chief Financial Officer (CFO) with extensive experience in financial management and strategic planning. With a keen eye for detail and a strong background in financial analysis, Robin helps businesses optimize their financial operations, drive growth, and ensure long-term sustainability. Passionate about data-driven decision-making, Robin works closely with leadership teams to align financial strategies with company objectives."
           />
         </div>
       </div>

@@ -1,32 +1,32 @@
 [
   {
     "avatar": "/images/service-assets/1.jpg",
-    "service": "Web & Mobile",
-    "description": "It's fun and easy to create your own professional looking website using UDesign. Give your website a unique style."
+    "service": "Web & Mobile Apllication Development",
+    "description": "Transform your ideas into seamless app and web experiences! Our expert developers craft custom, high-performance solutions that drive results and elevate your digital presence."
   },
   {
     "avatar": "/images/service-assets/2.jpg",
-    "service": "UI/UX Design",
-    "description": "We are dedicated to offering you the best service with support and updates you can rely on. Do not hesitate to contact us."
+    "service": "Data analytics services",
+    "description": "Unlock actionable insights with our data analytics services! We turn complex data into clear, strategic solutions that drive smarter decisions and business growth."
   },
   {
     "avatar": "/images/service-assets/3.jpg",
-    "service": "Online Marketing",
-    "description": "BDesign is ready and is surely designed keeping SEO. This is evident by looking at the source code."
+    "service": "Digital Marketing Services",
+    "description": "Elevate your brand with our data-driven digital marketing strategies! We create targeted campaigns that boost visibility, engagement, and sales."
   },
   {
     "avatar": "/images/service-assets/4.jpg",
-    "service": "Solid Build",
-    "description": "It's fun and easy to create your own professional looking website using UDesign. Give your website a unique style."
+    "service": "Software Maintenance and Support",
+    "description": "Keep your software running smoothly with our expert maintenance and support services! We ensure your systems are up-to-date, secure, and optimized for peak performance."
   },
   {
     "avatar": "/images/service-assets/5.png",
-    "service": "Ongoing Support",
-    "description": "We are dedicated to offering you the best service with support and updates you can rely on. Do not hesitate to contact us."
+    "service": "Cloud Computing Solutions",
+    "description": "Transform your business with our cloud computing solutions! We provide scalable, secure, and cost-effective cloud services to optimize performance and drive innovation."
   },
   {
     "avatar": "/images/service-assets/6.png",
-    "service": "Web & Mobile",
-    "description": "BDesign is ready and is surely designed keeping SEO. This is evident by looking at the source code."
+    "service": "Consulting and Strategy",
+    "description": "Unlock your business potential with our expert consulting and strategy services! We help you identify the right technology solutions and develop a roadmap to drive growth, efficiency, and innovation."
   }
 ]

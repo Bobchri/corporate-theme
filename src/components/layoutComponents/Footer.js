@@ -11,12 +11,11 @@ const Footer = () => {
           {/* Column 1 */}
           <div className="mb-8">
             <h2 className="text-3xl font-semibold mb-4">
-              <span className="text-orange-500">B</span>DESIGN
+              <span className="text-orange-500">I</span>mplimenta
             </h2>
             {/* Your content for column 1 */}
             <p className="text-sm text-slate-400">
-              This site has been set up purely for demonstration purposes and
-              more.
+            Implementa is a forward-thinking software development company dedicated to delivering innovative, scalable, and efficient solutions tailored to meet the unique needs of businesses in a rapidly evolving digital landscape.
             </p>
             <h1 className="text-xl font-semibold py-2">Contact Info</h1>
             <p className="text-sm">
@@ -41,7 +40,7 @@ const Footer = () => {
                   className="text-sm text-slate-400 hover:text-orange-500"
                   href="#"
                 >
-                  Get BDESIGN
+                  Free Consultation
                 </Link>
               </li>
               <li className="py-1">
@@ -145,7 +144,7 @@ const Footer = () => {
 
       {/* All Rights Reserved tagline */}
       <p className="mt-8 text-sm text-slate-400">
-        Borneel Bikash Phukan &copy; {new Date().getFullYear()} All Rights
+        Implimenta ltd &copy; {new Date().getFullYear()} All Rights
         Reserved
       </p>
     </footer>

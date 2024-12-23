@@ -9,8 +9,8 @@ const DetailsStack = () => {
           {/* First Card */}
           <ContactCard
             icon="fa-light fa-database"
-            title="BDesign Address"
-            address="Vettersstrasse 70, Stadt Chemnitz 09126 Deutschland"
+            title="Our location"
+            address="Rongai-Kenya"
           />
           {/* Second Card */}
           <ContactCard
@@ -22,7 +22,7 @@ const DetailsStack = () => {
           <ContactCard
             icon="fa-light fa-database"
             title="Let's Talk"
-            address="Phone Number: +49 176 7125 9396 Whatsapp: +91 943500 5619"
+            address="Phone Number: +254703274032 Whatsapp: 0703274032"
           />
         </div>
       </div>

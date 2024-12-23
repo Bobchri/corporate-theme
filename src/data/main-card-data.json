@@ -1,17 +1,20 @@
 [
   {
     "icon": "fa-light fa-database",
-    "title": "Database System",
-    "content": "This was released more than 6 years ago and it is still one of the top selling themes, based on stable framework."
+    "title": "AI for Real Impact",
+    "content": "We equip companies to leverage AI and data to solve real business problems and achieve meaningful results by integrating cutting-edge AI technologies and data-driven strategies, we help businesses enhance decision-making, streamline operations, and uncover new growth opportunities. Our tailored solutions ensure that companies stay ahead of the curve, maximizing efficiency and delivering measurable impact in their industry."
   },
   {
     "icon": "fa-light fa-code",
-    "title": "Graphic Portfolio",
-    "content": "This is a consistent and reliable theme, we're improving it all the time adding new features, staying on top."
+    "title": "Software Engineering Services & Solutions",
+    "content": "Developing software in the cloud maximizes companies agility by enabling real-time updates and accelerated time to market. Our software engineers have extensive experience working on Azure and AWS, and clients leverage their cloud-native expertise to build software solutions that capitalize on microservice-based architectures."
+
+
+    
   },
   {
     "icon": "fa-light fa-pencil",
-    "title": "Growth Trends 2023",
-    "content": "We have many returning customers that got to trust us as a solid partner. Join the 50,000+ happy BDesign users."
+    "title": "Data Analytics Solutions",
+    "content": "By analyzing and making sense of their data, companies can transform processes with AI-led automation, achieving new levels of productivity and cost savings.Data analytics digs deeper into market metrics and enterprise information, uncovering opportunities that traditional analyses can’t define or recommend. As a result, enterprises using data analytics for automation achieve greater operational efficiencies than their competitors."
   }
 ]

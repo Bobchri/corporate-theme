@@ -19,20 +19,20 @@ const Services = () => {
           {/* First Card */}
           <ServicesCard
             avatar={Service1}
-            serviceName="Solid Build"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis."
+            serviceName="Software Development"
+            description="We are a software development company focused on delivering innovative, scalable solutions tailored to your business needs. Our team creates high-quality web and mobile applications to drive growth and streamline operations."
           />
           {/* Second Card */}
           <ServicesCard
             avatar={Service2}
-            serviceName="Ongoing Support"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis."
+            serviceName="SEO and Marketing Services"
+            description="We offer services to boost your online visibility, drive targeted traffic, and convert leads into loyal customers.We optimize your website for top search engines like Google, Bing, and Yahoo, using proven strategies to enhance organic search performance and maximize reach."
           />
           {/* Third Card */}
           <ServicesCard
             avatar={Service3}
-            serviceName="SEO Review"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis."
+            serviceName="Continuous Support"
+            description="Our commitment to excellence goes beyond launching your website. We offer ongoing support and maintenance to keep your site secure, up-to-date, and performing at its best. From troubleshooting to scaling your infrastructure, we’re here to support your online success every step of the way."
           />
         </div>
       </div>

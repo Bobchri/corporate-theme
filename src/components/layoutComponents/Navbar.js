@@ -105,22 +105,9 @@ const Navbar = () => {
                   Services
                 </Link>
               </li>
-              <li className="py-2">
-                <Link
-                  className="text-black hover:text-orange-500"
-                  href="/Testimonials"
-                >
-                  Testimonials
-                </Link>
-              </li>
-              <li className="py-2">
-                <Link
-                  className="text-black hover:text-orange-500"
-                  href="/Error404"
-                >
-                  Error 404
-                </Link>
-              </li>
+              
+              
+            
             </ul>
           )}
         </div>
@@ -134,7 +121,7 @@ const Navbar = () => {
           }`}
           onClick={() => handleLinkClick("Portfolios")}
         >
-          Portfolios
+          
         </a>
 
         {/* Our Team */}
@@ -163,7 +150,7 @@ const Navbar = () => {
             }`}
             onClick={() => handleLinkClick("News")}
           >
-            News
+            
           </a>
           {showNewsSubNav && (
             <ul

@@ -12,7 +12,7 @@ const ServiceBanner = () => {
             </h1>
 
             <p className="max-w-md text-3xl md:text-lg lg:text-5xl text-gray-300 w-[50%] text-center mx-auto">
-              You Dream it, We Make It True
+            We bring your vision to life
             </p>
           </div>
         </div>

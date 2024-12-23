@@ -18,7 +18,7 @@ const Card = ({ icon, title, content }) => {
           href="/AboutUs"
           className="font-bold text-black hover:text-orange-500 transition-colors duration-300 underline underline-offset-8"
         >
-          Read More
+          
         </Link>
       </div>
     </div>

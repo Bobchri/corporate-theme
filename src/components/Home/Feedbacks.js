@@ -7,16 +7,15 @@ const Feedbacks = () => {
     <div className="container mx-auto">
       <div className="max-w-8xl mx-auto text-center text-lg p-5 my-10">
         <p className="text-base md:text-lg lg:text-neutral-500">
-          <span className="text-orange-500 font-semibold">50,000+ </span>HAPPY
-          USERS
+          <span className="text-orange-500 font-semibold">10,000+ </span>HAPPY
+          CLIENTS
         </p>
         <h1 className="text-4xl font-semibold mb-3">
           See why they love it so much!
         </h1>
 
         <p className=" max-w-md mx-auto text-base md:text-lg lg:text-neutral-400 mb-10">
-          BDesign is a very powerful theme which suits both users with no
-          programming
+        we provide innovative software solutions designed to bring your ideas to life. Let’s create something amazing together
         </p>
 
         <div className="px-auto overflow-hidden grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 p-1">

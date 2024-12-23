@@ -7,6 +7,8 @@ const PriceCard = ({
   packageName,
   products,
   storage,
+  Special,
+  Specifications,
   bandwidth,
 }) => {
   return (
@@ -14,7 +16,7 @@ const PriceCard = ({
       <div className="text-5xl font-bold p-10 bg-orange-500">
         <h1 className="text-gray-100">
           {price}
-          <span className="text-base font-semibold">Monthly</span>
+          <span className="text-base font-semibold"></span>
         </h1>
       </div>
 
@@ -25,8 +27,8 @@ const PriceCard = ({
         <ul className="mx-auto text-slate-500 text-base">
           <li className="py-2">{products}</li>
           <li className="py-2">{storage}</li>
-          <li className="py-2">Free Support</li>
-          <li className="py-2">Unlimited Users</li>
+          <li className="py-2">{Special}</li>
+          <li className="py-2">{Specifications}</li>
           <li className="pt-2">{bandwidth}</li>
         </ul>
       </div>

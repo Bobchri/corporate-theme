@@ -1,22 +1,22 @@
 [
   {
     "avatar": "/images/home-assets/avatar-1.png",
-    "name": "John Doe",
-    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis.",
+    "name": "John WhiteMan",
+    "comment": "Working with your team was an absolute pleasure! The mobile app you created exceeded our expectations—user-friendly, beautifully designed, and perfectly tailored to our needs. Highly recommended!",
     "stars": 5,
     "role": "Customer"
   },
   {
     "avatar": "/images/home-assets/avatar-2.png",
     "name": "Tom Jackson",
-    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis.",
+    "comment": "The ERP system your team developed has completely transformed our operations. It’s efficient, reliable, and tailored to our workflows. We’re now more productive than ever—thank you for an outstanding solution!",
     "stars": 4,
     "role": "Customer"
   },
   {
     "avatar": "/images/home-assets/avatar-3.png",
     "name": "Henry Harry",
-    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat sagittis massa. Duis et cursus elit. Morbi lacinia luctus dui, lacinia imperdiet velit. Vestibulum eu dui turpis.",
+    "comment": "Thanks to your digital marketing expertise and stunning UI/UX design, my business has experienced incredible growth. The seamless user experience has boosted customer engagement, and the marketing strategies have brought in more leads than ever. I couldn’t be happier with the results!",
     "stars": 5,
     "role": "Logistician"
   }

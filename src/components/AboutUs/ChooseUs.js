@@ -9,27 +9,27 @@ const ChooseUs = () => {
           WHY CHOOSE US
         </p>
         <h1 className="max-w-md text-4xl mx-auto font-semibold mb-10">
-          Long-term vision and grow your business
+        Innovative solutions, reliable support, exceptional results.
         </h1>
 
         <div className="px-auto overflow-hidden grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
           {/* First Card */}
           <ChooseUsCard
-            number={35}
-            statement="Years Experience"
-            description="We were released 6 years ago and it still stays on top."
+            number={5}
+            statement="Years"
+            description="Implimenta still remains the best software solutions provider in Kenya."
           />
           {/* Second Card */}
           <ChooseUsCard
-            number={250}
+            number={10000}
             statement="Satisfied Clients"
-            description="We have many returning customers that got to trust us a solid partner."
+            description="We have many returning customers that trust us a solid partner."
           />
           {/* Third Card */}
           <ChooseUsCard
             number={300}
             statement="Project Done"
-            description="Join the 50,000+ happy BDesign users and learn why we've been for so long"
+            description="Join the 10,000+ happy clients and learn why we've been the best in software market for so long"
           />
         </div>
       </div>

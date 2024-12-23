@@ -12,17 +12,15 @@ const Features = () => {
             Features
           </h1>
           <h1 className="text-4xl font-semibold mb-3">
-            Create your own unique
+            Get your own unique
           </h1>
           <h1 className="md:text-4xl lg:text-4xl xl:text-4xl font-semibold text-4xl mb-4">
-            website & have fun doing it!
+            website at an affordable price
           </h1>
           <p className="text-base md:text-lg lg:text-neutral-400">
-            BDesign was released more than 6 years ago. And it is a very
-            powerful theme which suits both users with no programming background
-            as well as professional web designers.
+          Looking for the perfect website to fit your needs? From sleek business sites to dynamic e-commerce platforms, we create custom solutions that elevate your online presence. Start building your dream site today!
           </p>
-          <Button bgColor="white" textColor="black" text="View More" />
+          <Button bgColor="white" textColor="black" text="Get started" />
         </div>
         <div className="mt-4 md:mt-0 md:ml-4">
           <Image

@@ -6,11 +6,11 @@ const Recruitment = () => {
     <div className="container mx-auto p-10">
       <div className="max-w-5xl mx-auto text-center text-lg">
         <h1 className="text-4xl font-semibold mb-3">
-          Steps of Recruitment Process
+          Hire with us
         </h1>
 
         <p className="max-w-md mx-auto text-base md:text-lg lg:text-neutral-400">
-          We can help you with picking out the best people for your company
+          We can help you pick the best talent for your company
         </p>
 
         <div className="overflow-x-auto">
@@ -21,10 +21,9 @@ const Recruitment = () => {
                   01
                 </span>
               </div>
-              <h5 className="text-xl font-semibold mt-4">Web Design</h5>
+              <h5 className="text-xl font-semibold mt-4">Web Developers</h5>
               <p className="text-base md:text-base lg:text-neutral-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
-                erat orci.
+              Elevate your business with expert web developers! Our team delivers custom websites that drive results. Hire now and bring your vision to life!
               </p>
             </div>
 
@@ -34,10 +33,9 @@ const Recruitment = () => {
                   02
                 </span>
               </div>
-              <h5 className="text-xl font-semibold mt-4">Apps Development</h5>
+              <h5 className="text-xl font-semibold mt-4">App Development</h5>
               <p className="text-base md:text-base lg:text-neutral-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
-                erat orci.
+              Turn your ideas into powerful mobile apps! Our expert developers create high-performance, user-friendly apps. Hire now and go mobile!
               </p>
             </div>
 
@@ -49,8 +47,7 @@ const Recruitment = () => {
               </div>
               <h5 className="text-xl font-semibold mt-4">Digital Marketing</h5>
               <p className="text-base md:text-base lg:text-neutral-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
-                erat orci.
+              Boost your brand with expert digital marketers! We create results-driven campaigns that grow your business. Hire now and dominate online!
               </p>
             </div>
 
@@ -61,16 +58,15 @@ const Recruitment = () => {
                 </span>
               </div>
 
-              <h5 className="text-xl font-semibold mt-4">UI/UX Design</h5>
+              <h5 className="text-xl font-semibold mt-4">Data analysts</h5>
               <p className="text-base md:text-base lg:text-neutral-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
-                erat orci.
+              Unlock the power of your data with our expert analysts! We turn complex data into actionable insights for smarter decisions and growth. Hire now!
               </p>
             </div>
           </div>
         </div>
 
-        <Button bgColor="white" textColor="black" text="Online Application" />
+        <Button bgColor="white" textColor="black" text="Hire with us" />
       </div>
     </div>
   );

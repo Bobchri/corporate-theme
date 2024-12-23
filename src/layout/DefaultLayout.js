@@ -17,7 +17,7 @@ const DefaultLayout = ({ children }) => {
   return (
     <div>
       <Head>
-        <title>BDesign | Corporate Theme Template</title>
+        <title>Implimenta | software development</title>
       </Head>
       {isLoading ? (
         <Loader />
